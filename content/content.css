@@ -1,0 +1,120 @@
+/* Set a fixed width for the popup */
+#popup {
+  width: 300px; /* Adjust this value as needed */
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+#newGroupBtn, #pinSidebarBtn, #exportBtn {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#newGroupBtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#pinSidebarBtn {
+  background-color: #FFA500; /* Orange color for the sidebar button */
+  color: white;
+}
+
+#exportBtn {
+  background-color: #2196F3; /* Blue color for export button */
+  color: white;
+}
+
+/* Export Menu */
+#exportMenu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+#exportMenu button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.group {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.group-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff4d4d; /* Red color for delete icon */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.tab-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #ff4d4d; /* Red color for remove icon */
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.move-dropdown {
+  margin-left: 5px;
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.add-tab-btn {
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tab Manager Pro</title>
+  <link rel="stylesheet" href="content/content.css">
+</head>
+<body>
+  <div id="popup">
+    <h2>Tab Manager Pro</h2>
+    <button id="newGroupBtn">+ New Group</button>
+    <button id="pinSidebarBtn">📌 Open Detached Sidebar</button>
+    <button id="exportBtn">📄 Export Tabs</button>
+
+    <!-- New Button for Extracting Page Content to Markdown -->
+    <button id="extractMarkdownBtn">📄 Extract to Markdown</button>
+
+    <div id="exportMenu" style="display: none;">
+      <button id="exportMarkdownBtn">Export Tabs as Markdown</button>
+      <button id="exportJsonBtn">Export Tabs as JSON</button>
+    </div>
+
+    <div id="groupList"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
